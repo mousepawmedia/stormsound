@@ -2,7 +2,7 @@ Stormsound
 =====================
 
 The **Stormsound** library provides high performance sound playback
-using the Opus audio codec.
+using the Opus audio codec. See the [official project page][1].
 
 Authors
 -------------
@@ -20,18 +20,19 @@ Contributions
 -------------
 We do not accept pull requests through GitHub.
 If you would like to contribute code, please read our
-[Contribution Guide][2].
+[Contribution Guide][3].
 
 All contributions are licensed to us under the
-[MousePaw Games Terms of Development][3].
+[MousePaw Games Terms of Development][4].
 
 License
 -------------
-PawLIB is licenced under the GPL v3 License. (See LICENCE.md)
+Stormsound is licenced under the GNU General Public Licence 3.0. (See LICENCE.md)
 
-The project is owned and maintained by [MousePaw Games][1].
+The project is owned and maintained by [MousePaw Games][2].
 
-[1]: http://www.mousepawgames.com/opensource
-[2]: http://www.mousepawgames.com/getinvolved/opensource#contribute
-[3]: http://www.mousepawgames.com/termsofdevelopment
+[1]: http://www.mousepawgames.com/stormsound
+[2]: http://www.mousepawgames.com/opensource
+[3]: http://www.mousepawgames.com/opensource#contribute
+[4]: http://www.mousepawgames.com/termsofdevelopment
 
