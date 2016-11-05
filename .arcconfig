@@ -1,7 +1,6 @@
 {
-	"phabricator.uri" : "https://hawksnest.ddns.net:8446",
-	"repository.callsign" : "SS",
-	"https.blindly-trust-domains" : ["hawksnest.ddns.net"],
+	"phabricator.uri" : "https://phabricator.mousepawmedia.net",
+	"repository.callsign" : "ST",
 	"load" : [
 		".arclibs/cppcheck"
 	]
