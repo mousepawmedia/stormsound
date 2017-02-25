@@ -5,4 +5,14 @@
 *.layout
 **/bin
 **/obj
-build/
+**/lib
+**/libs
+**/build
+**/build_temp
+stormsound/
+!pawlib-source/include/stormsound
+docs/build
+tester
+tester_debug
+*.config
+!default.config

@@ -1,38 +1,42 @@
-Stormsound
-=====================
+# Stormsound
 
 The **Stormsound** library provides high performance sound playback
 using the Opus audio codec. See the [official project page][1].
 
-Authors
--------------
+## Authors
+
  - Alex Price
 
-Building
--------------
-(To be filled in later.)
+## Dependencies
 
-Dependencies
--------------
-(To be filled in later.)
+Stormsound depends on CPGF, Cinder, Opus, and PawLIB.
 
-Contributions
--------------
-We do not accept pull requests through GitHub.
+## Building
+
+If you have the full source repository, see BUILDING.md for information
+on how to build Stormsound, Stormsound Tester, and the documentation.
+
+The Ready-To-Use version of Stormsound only contains the folders `include`
+and `lib`. You can find the full source repository on [GitHub][5].
+
+# Contributions
+
+We do NOT accept pull requests through GitHub.
 If you would like to contribute code, please read our
 [Contribution Guide][3].
 
 All contributions are licensed to us under the
-[MousePaw Games Terms of Development][4].
+[MousePaw Media Terms of Development][4].
 
-License
--------------
-Stormsound is licenced under the GNU General Public Licence 3.0. (See LICENCE.md)
+## License
 
-The project is owned and maintained by [MousePaw Games][2].
+Stormsound is licensed under the GNU General Public License 3.0. (See
+LICENSE.md)
+
+The project is owned and maintained by [MousePaw Media][2].
 
 [1]: http://www.mousepawgames.com/stormsound
 [2]: http://www.mousepawgames.com/opensource
 [3]: http://www.mousepawgames.com/opensource#contribute
 [4]: http://www.mousepawgames.com/termsofdevelopment
-
+[5]: http://github.com/mousepawmedia/stormsound
