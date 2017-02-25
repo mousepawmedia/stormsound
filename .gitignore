@@ -10,7 +10,7 @@
 **/build
 **/build_temp
 stormsound/
-!pawlib-source/include/stormsound
+!stormsound-source/include/stormsound
 docs/build
 tester
 tester_debug
