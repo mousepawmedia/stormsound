@@ -46,7 +46,7 @@ set(OPUS_DIR
 # the other third-party dependencies (since it is in BETA).
 #
 # The default for all is '${CMAKE_HOME_DIRECTORY}/../../cinder/cinder/lib/linux/x86_64',
-# which assumes a copy of the MousePaw Games cinder repository in the same
+# which assumes a copy of the MousePaw Media cinder repository in the same
 # directory as this repository folder.
 #
 # 'make ready' would need to be run in cinder-git first.
