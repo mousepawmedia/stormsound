@@ -40,21 +40,6 @@ set(OPUS_DIR
 	${CMAKE_HOME_DIRECTORY}/../../libdeps/libs
 )
 
-##### CINDER #####
-#
-# This sets the path to Cinder, which we have in a separate repository from
-# the other third-party dependencies (since it is in BETA).
-#
-# The default for all is '${CMAKE_HOME_DIRECTORY}/../../cinder/cinder/lib/linux/x86_64',
-# which assumes a copy of the MousePaw Media cinder repository in the same
-# directory as this repository folder.
-#
-# 'make ready' would need to be run in cinder-git first.
-
-set(CINDER_DIR
-	${CMAKE_HOME_DIRECTORY}/../../cinder/cinder/lib/linux/x86_64
-)
-
 ##### PAWLIB #####
 #
 # This sets the path to PawLIB.
