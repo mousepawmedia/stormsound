@@ -24,7 +24,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "pawlib/iochannel.hpp"
+#include "iosqueak/channel.hpp"
 
 class Dummy
 {

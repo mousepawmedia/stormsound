@@ -2,5 +2,5 @@
 
 void Dummy::speak()
 {
-    pawlib::ioc << "Hello, world!" << pawlib::io_end;
+    channel << "Hello, world!" << IOCtrl::endl;
 }
