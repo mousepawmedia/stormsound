@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
 	channel.configure_echo(IOEchoMode::cout);
 
 	GoldilocksShell* shell = new GoldilocksShell(">> ");
-	//shell->register_suite<Test_TestSuite>("sB01");
+	// shell->register_suite<Test_TestSuite>("sB01");
 
 	// If we got command-line arguments.
 	if (argc > 1) {

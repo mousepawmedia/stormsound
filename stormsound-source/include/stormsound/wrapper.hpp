@@ -1,14 +1,16 @@
-/** Dummy [Stormsound]
- * Version: 0.1
- *
- * A temporary test class for Stormsound. This will be removed later
- * when we have other functionality to build and test with.
- *
- * Author(s): Jason C. McDonald
- */
+#ifndef WRAPPER_HPP
+#define WRAPPER_HPP
+
+/** Sound Library Wrapper [Stormsound]
+  * Version: 0.1
+  *
+  * A a namespace with functions that abstract away certain library functionalities.
+  *
+  * Author(s): Manuel Mateo
+  */
 
 /* LICENSE
- * Copyright (C) 2017 MousePaw Media.
+ * Copyright (C) 2021 MousePaw Media.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,12 +26,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "iosqueak/channel.hpp"
+#include "onestring/onestring.hpp"
+#include <SDL2/SDL_mixer.h>
 
-class Dummy
+namespace StormSound
 {
-public:
-	Dummy() {}
-	static void speak();
-	~Dummy() {}
-};
+    int initalize_library(int flags = 0);
+    int quit_library();
+    Mix_Chunk* load_event_audio(const onestring& file_name);
+    Mix_Music* load_music_audio(const onestring& file_name);
+}
+
+#endif // WRAPPER_HPP

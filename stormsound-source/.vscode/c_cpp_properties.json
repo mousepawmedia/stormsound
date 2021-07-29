@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+          "name": "Linux",
+          "includePath": [
+              "/usr/include/**",
+              "/usr/include/SDL2/**",
+              "/usr/local/include/**",
+              "/usr/lib/gcc/x86_64-linux-gnu/**",
+              "/home/john/repos/libdeps/libs/include",
+              "/home/john/repos/arctic-tern/arctic-tern/include",
+              "/home/john/repos/goldilocks/goldilocks/include",
+              "/home/john/repos/onestring/onestring/include",
+              "/home/john/repos/iosqueak/iosqueak/include",
+              "/home/john/repos/nimbly/nimbly/include",
+              "${workspaceRoot}/**"
+          ],
+          "defines": [],
+          "intelliSenseMode": "clang-x64",
+          "browse": {
+              "path": [
+                  "/usr/include",
+                  "/usr/local/include",
+                  "/usr/include/x86_64-linux-gnu",
+                  "/home/john/repos/libdeps/libs/include",
+                  "/home/john/repos/arctic-tern/arctic-tern/include",
+                  "/home/john/repos/goldilocks/goldilocks/include",
+                  "/home/john/repos/onestring/onestring/include",
+                  "/home/john/repos/iosqueak/iosqueak/include",
+                  "/home/john/repos/nimbly/nimbly/include",
+                  "${workspaceRoot}/**"
+              ],
+              "limitSymbolsToIncludedHeaders": true,
+              "databaseFilename": ""
+          },
+          "compilerPath": "/usr/bin/gcc",
+          "cStandard": "c11",
+          "cppStandard": "c++17"
+      }
+    ],
+    "version": 4
+}

@@ -5,9 +5,11 @@
           "includePath": [
               "/usr/include/**",
               "/usr/local/include/**",
+              "/usr/local/include/SDL2/**",
               "${workspaceRoot}/../libdeps/libs/include/**",
               "${workspaceRoot}/../arctic-tern/arctic-tern/include/**",
               "${workspaceRoot}/../goldilocks/goldilocks/include/**",
+              "${workspaceRoot}/../onestring/onestring/include/**",
               "${workspaceRoot}/../iosqueak/iosqueak/include/**",
               "${workspaceRoot}/../nimbly/nimbly/include/**",
               "${workspaceRoot}/**"
@@ -21,6 +23,7 @@
                   "${workspaceRoot}/../libdeps/libs/include",
                   "${workspaceRoot}/../arctic-tern/arctic-tern/include",
                   "${workspaceRoot}/../goldilocks/goldilocks/include",
+                  "${workspaceRoot}/../onestring/onestring/include",
                   "${workspaceRoot}/../iosqueak/iosqueak/include",
                   "${workspaceRoot}/../nimbly/nimbly/include",
                   "${workspaceRoot}"
@@ -40,11 +43,13 @@
           "name": "Linux",
           "includePath": [
               "/usr/include/**",
+              "/usr/include/SDL2/**",
               "/usr/local/include/**",
               "/usr/lib/gcc/x86_64-linux-gnu/**",
               "${workspaceRoot}/../libdeps/libs/include/**",
               "${workspaceRoot}/../arctic-tern/arctic-tern/include/**",
               "${workspaceRoot}/../goldilocks/goldilocks/include/**",
+              "${workspaceRoot}/../onestring/onestring/include/**",
               "${workspaceRoot}/../iosqueak/iosqueak/include/**",
               "${workspaceRoot}/../nimbly/nimbly/include/**",
               "${workspaceRoot}/**"
@@ -59,6 +64,7 @@
                   "${workspaceRoot}/../libdeps/libs/include",
                   "${workspaceRoot}/../arctic-tern/arctic-tern/include",
                   "${workspaceRoot}/../goldilocks/goldilocks/include",
+                  "${workspaceRoot}/../onestring/onestring/include",
                   "${workspaceRoot}/../iosqueak/iosqueak/include",
                   "${workspaceRoot}/../nimbly/nimbly/include",
                   "${workspaceRoot}"
@@ -77,6 +83,7 @@
               "${workspaceRoot}/../libdeps/libs/include/**",
               "${workspaceRoot}/../arctic-tern/arctic-tern/include/**",
               "${workspaceRoot}/../goldilocks/goldilocks/include/**",
+              "${workspaceRoot}/../onestring/onestring/include/**",
               "${workspaceRoot}/../iosqueak/iosqueak/include/**",
               "${workspaceRoot}/../nimbly/nimbly/include/**",
               "${workspaceRoot}/**"
@@ -92,6 +99,7 @@
                   "${workspaceRoot}/../libdeps/libs/include",
                   "${workspaceRoot}/../arctic-tern/arctic-tern/include",
                   "${workspaceRoot}/../goldilocks/goldilocks/include",
+                  "${workspaceRoot}/../onestring/onestring/include",
                   "${workspaceRoot}/../iosqueak/iosqueak/include",
                   "${workspaceRoot}/../nimbly/nimbly/include",
                   "${workspaceRoot}"

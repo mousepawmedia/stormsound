@@ -1,14 +1,14 @@
-/** Dummy [Stormsound]
+/** Stormsound Exceptions [Stormsound]
  * Version: 0.1
  *
  * A temporary test class for Stormsound. This will be removed later
  * when we have other functionality to build and test with.
  *
- * Author(s): Jason C. McDonald
+ * Author(s): John Fu, Manuel Mateo
  */
 
 /* LICENSE
- * Copyright (C) 2017 MousePaw Media.
+ * Copyright (C) 2021 MousePaw Media.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,12 +24,22 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "iosqueak/channel.hpp"
+#ifndef STORMSOUND_EXCEPTIONS_H
+#define STORMSOUND_EXCEPTIONS_H
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_mixer.h>
+#include <string>
 
-class Dummy
+#include "SDL2/SDL.h"
+
+class StormsoundException : public std::exception
 {
+private:
+	std::string msg;
+
 public:
-	Dummy() {}
-	static void speak();
-	~Dummy() {}
+	StormsoundException(const std::string& msg) : msg(msg){};
+
+	virtual const char* what() const noexcept override { return msg.c_str(); }
 };
+#endif

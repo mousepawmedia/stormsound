@@ -1,5 +1,10 @@
 {
-    "telemetry.enableCrashReporter": false,
+// Controls the font family.
+"editor.fontFamily": "Ubuntu Mono",
+
+// Controls the font size.
+"editor.fontSize": 15
+    ,"telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
 
     "c-cpp-flylint.cppcheck.force": false,
@@ -40,4 +45,5 @@
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "restructuredtext.confPath": "${workspaceFolder}/docs/source",
     "cmake.sourceDirectory": "${workspaceFolder}/stormsound-source"
+
 }

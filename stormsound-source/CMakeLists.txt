@@ -36,8 +36,14 @@ set(INCLUDE_LIBS
 # CHANGE: Include files to compile.
 set(FILES
     include/stormsound/dummy.hpp
+    include/stormsound/volume.hpp
+    include/stormsound/StormsoundExceptions.hpp
+    include/stormsound/stormsound.hpp
 
+    src/stormsound.cpp
     src/dummy.cpp
+    src/volume.cpp
+
 )
 
 # CHANGE: Link against dependencies.
